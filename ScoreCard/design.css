@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(209, 209, 214);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+
+    width:1200px;
+    height:800px;
+   
+    border-radius: 15px;
+    display: inline-flex;
+    display: wrap;
+
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color:white;
+   
+}
+.card1{
+
+    width:400px;
+    height:350px;
+    border:none;
+    margin-top: 100px;
+
+}
+
+.img1{
+    
+    width:400px;
+    height:350px;
+}
+
+.img2{
+
+    width:250px;
+    height:200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    animation-name: sample;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes sample{
+
+    0% { border-radius: 0px;}
+    100%{ border-radius: 50px;}
+}
+
+.card2{
+
+    width:700px;
+    height:700px;
+    border: none;
+    margin-top: 50px;
+    padding-left: 30px;
+
+}
+ 
+
+
+
+.heading{
+
+    text-align: center;
+    width:500px;
+    height:100px;
+    background-color:#083676;
+    color:whitesmoke;
+    font-size: 23px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+    padding-top: 10px;
+    
+}
+.heading > h1{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.text{
+
+    margin-top: 0px;
+    width:500px;
+    height:380px;
+    color:#083676;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: #FDCA40;
+
+}
+p{
+
+    height:40px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+   
+    
+}
+
+
+.restart{
+
+    width:600px;
+    height:200;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:none;
+    display: flex;
+    display: wrap;
+  
+
+}
+.button{
+
+background-color:#EA5455;
+border: none;
+border-radius: 5px;
+color:white;
+padding: 15px 25px;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 7px;
+text-align: center;
+text-decoration: none;
+width: 500px;
+font-size: 20px;
+font-weight: 700;
+box-shadow: 5px 5px 10px grey;
+}
+
+.button:hover{
+
+    
+    color:white;
+    width: 520px;
+    height:70px;
+    
+    
+    
+}
+
+
