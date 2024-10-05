@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image:url("bgImg.jpg");     
+    background-repeat: repeat;
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:100vh;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box; 
+    border-radius:4px;
+    opacity: 9px;
+    padding-top: 20px;
+    margin-left: 8%;
+    margin-top: 0;
+    height: 90vh;
+    width: 70%;
+    left: 100px;
+    top:60px;
+    display: wrap;
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    overflow: hidden;   
+}
+
+.card1{
+    background-image: url("3d-triangle.jpg");
+    background-size: contain;
+    height: 103%;
+    width: 20%;
+    /* border:5px solid #7400B8; */
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-top:-27px;
+    margin-left: -6px;
+    /* overflow: hidden; */
+} 
+
+h1 { 
+    margin: 20px;
+    font-size: 35px; 
+    color:rgb(3, 145, 234);
+    font-weight: bolder;
+    text-shadow:2px 2px 4px cyan;
+}
+
+h3,.terms {
+    margin: 20px;
+    font-weight: bold;
+    color:rgb(3, 145, 234)  
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-27px; 
+    height: 103%;
+    width:70%;
+    border:none;
+    opacity: 0.9;
+    background-color:white;
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cards .left div {
+    display: flex;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(99, 9, 99);
+    width:200px;
+    height:30px;
+    text-align: right;
+    display: inline-block;
+    /* width: 100%; */
+    margin-bottom: 10px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.cards .right div {
+    display: flex;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    width:200px;
+    height:30px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    color: black;
+}
+
+#back {
+    margin: 30px 0 0 0;
+    width:230px;
+    height:40px;
+    border:none;
+    border-radius: 3px;
+    border: none;
+    color:lightgoldenrodyellow;
+    font-size: 20px;
+    background-image: linear-gradient( to left,magenta,#5E60CE,#48BFE3,cyan);
+}
